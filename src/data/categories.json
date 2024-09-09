@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Secretariado Juridico",
+        "icon": "notebook-outline"
+    },
+    {
+        "name": "Derecho Civil",
+        "icon": "scale-balance"
+    },
+    {
+        "name": "Derecho de Familia",
+        "icon": "family-tree"
+    },
+    {
+        "name": "Derecho Penal",
+        "icon": "police-station"
+    },
+    {
+        "name": "Derecho Laboral",
+        "icon": "hammer"
+    },
+    {
+        "name": "Defensa al Consumidor",
+        "icon": "tag"
+    },
+    {
+        "name": "Redacción de Escritos",
+        "icon": "pen"
+
+    },
+    {
+        "name": "Litigación y Oratoria",
+        "icon": "gavel"
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+        "id": 0,
+        "title": "Curso de Secretariado Jurídico",
+        "description": "Curso de Secretariado Jurídico que cubre aspectos clave del estudio.Incluye material completo.",
+        "destinado": "Estudiantes de Derecho de cualquier etapa, abogados y/o cualquiera que esté interesado.",
+        "price": 15000,
+        "categories": "Secretariado Juridico",
+        "Dra": "Dra. María José Núñez",
+        "modality": "Online",
+        "whatIncludes": "Vocabulario Procesal e Introducción al Derecho, Jurisdicción y Competencias, Procesos y etapas, Procesos Civiles y de Familia, Procesos Laborales y Penales, Escritos, documentación y tareas del estudio, Firma digital, Búsqueda laboral. Se entrega un Drive con un audio + clase + material en PDF + videotutoriales instructivos de sistemas web + modelos escritos."
+    },
+    {
+        "id": 1,
+        "title": "Curso de Derecho Civil",
+        "description": "Curso de Derecho Civil que cubre aspectos clave del estudio.Incluye material completo.",
+        "destinado": "Estudiantes de Derecho de cualquier etapa, abogados y/o cualquiera que esté interesado.",
+        "price": 15000,
+        "categories": "Derecho Civil",
+        "Dra": "Dra. María José Núñez",
+        "modality": "Online",
+        "whatIncludes": "Vocabulario Procesal e Introducción al Derecho, Jurisdicción y Competencias, Procesos y etapas, Procesos Civiles y de Familia, Procesos Laborales y Penales, Escritos, documentación y tareas del estudio, Firma digital, Búsqueda laboral. Se entrega un Drive con un audio + clase + material en PDF + videotutoriales instructivos de sistemas web + modelos escritos."
+    },
+    {
+        "id": 2,
+        "title": "Taller De Alimentos",
+        "description":"",
+        "destinado": "Estudiantes avanzados de abogacía. Abogados que comienzan a ejercer la profesión y cualquier otro colega que quiera profundizar en el tema.",
+        "price": 15000,
+        "categories": "Derecho de Familia",
+        "Dra": "Dra. María José Núñez",
+        "modality": "Online",
+        "whatIncludes":"El paso a paso desde el inicio de la demanda por alimentos, teoría y práctica. Modelos escritos editables. CABA y Provincia de Buenos Aires, Se entrega acceso a un drive con la guía en PDF, la clase y los modelos descargables. También te enviaremos un número de WhatsApp donde podrás consultar tus dudas con abogados de nuestro equipo."
+    },
+    {
+        "id": 3,
+        "title": "Curso de Derecho Penal",
+        "description": "Curso de Derecho Penal que cubre aspectos clave del estudio.Incluye material completo.",
+        "destinado": "Estudiantes de Derecho de cualquier etapa, abogados y/o cualquiera que esté interesado.",
+        "price": 15000,
+        "categories": "Derecho Penal",
+        "Dra": "Dra. María José Núñez",
+        "modality": "Online",
+        "whatIncludes": "Vocabulario Procesal e Introducción al Derecho, Jurisdicción y Competencias, Procesos y etapas, Procesos Civiles y de Familia, Procesos Laborales y Penales, Escritos, documentación y tareas del estudio, Firma digital, Búsqueda laboral. Se entrega un Drive con un audio + clase + material en PDF + videotutoriales instructivos de sistemas web + modelos escritos."
+    },
+    {
+        "id": 4,
+        "title": "Curso de Derecho Laboral",
+        "description": "Curso de Derecho Laboral que cubre aspectos clave del estudio.Incluye material completo.",
+        "destinado": "Estudiantes de Derecho de cualquier etapa, abogados y/o cualquiera que esté interesado.",
+        "price": 15000,
+        "categories": "Derecho Laboral",
+        "Dra": "Dra. María José Núñez",
+        "modality": "Online",
+        "whatIncludes": "Vocabulario Procesal e Introducción al Derecho, Jurisdicción y Competencias, Procesos y etapas, Procesos Civiles y de Familia, Procesos Laborales y Penales, Escritos, documentación y tareas del estudio, Firma digital, Búsqueda laboral. Se entrega un Drive con un audio + clase + material en PDF + videotutoriales instructivos de sistemas web + modelos escritos."
+    },
+    {
+        "id": 5,
+        "title": "Curso de Defensa al Consumidor",
+        "description": "Curso de Defensa al Consumidor que cubre aspectos clave del estudio.Incluye material completo.",
+        "destinado": "Estudiantes de Derecho de cualquier etapa, abogados y/o cualquiera que esté interesado.",
+        "price": 15000,
+        "categories": "Defensa al Consumidor",
+        "Dra": "Dra. María José Núñez",
+        "modality": "Online",
+        "whatIncludes": "Vocabulario Procesal e Introducción al Derecho, Jurisdicción y Competencias, Procesos y etapas, Procesos Civiles y de Familia, Procesos Laborales y Penales, Escritos, documentación y tareas del estudio, Firma digital, Búsqueda laboral. Se entrega un Drive con un audio + clase + material en PDF + videotutoriales instructivos de sistemas web + modelos escritos."
+    },
+    {
+        "id": 6,
+        "title": "Curso de Redacción de Escritos",
+        "description": "Curso de Redacción de Escritos que cubre aspectos clave del estudio.Incluye material completo.",
+        "destinado": "Estudiantes de Derecho de cualquier etapa, abogados y/o cualquiera que esté interesado.",
+        "price": 15000,
+        "categories": "Redacción de Escritos",
+        "Dra": "Dra. María José Núñez",
+        "modality": "Online",
+        "whatIncludes": "Vocabulario Procesal e Introducción al Derecho, Jurisdicción y Competencias, Procesos y etapas, Procesos Civiles y de Familia, Procesos Laborales y Penales, Escritos, documentación y tareas del estudio, Firma digital, Búsqueda laboral. Se entrega un Drive con un audio + clase + material en PDF + videotutoriales instructivos de sistemas web + modelos escritos."
+    },
+    {
+        "id": 7,
+        "title": "Curso de Litigación y Oratoria",
+        "description": "Curso de Litigación y Oratoria que cubre aspectos clave del estudio.Incluye material completo.",
+        "destinado": "Estudiantes de Derecho de cualquier etapa, abogados y/o cualquiera que esté interesado.",
+        "price": 15000,
+        "categories": "Litigación y Oratoria",
+        "Dra": "Dra. María José Núñez",
+        "modality": "Online",
+        "whatIncludes": "Vocabulario Procesal e Introducción al Derecho, Jurisdicción y Competencias, Procesos y etapas, Procesos Civiles y de Familia, Procesos Laborales y Penales, Escritos, documentación y tareas del estudio, Firma digital, Búsqueda laboral. Se entrega un Drive con un audio + clase + material en PDF + videotutoriales instructivos de sistemas web + modelos escritos."
+    }
+]

@@ -64,7 +64,6 @@ const styles = StyleSheet.create({
     },
     input: {
         flex: 1,
-        backgroundColor: colors.lleters,
         padding: 10,
         marginLeft: '2%',
         borderRadius: 8,

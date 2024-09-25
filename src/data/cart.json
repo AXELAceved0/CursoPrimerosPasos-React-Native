@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "id": 0,
+            "title": "Curso de Secretariado Jurídico",
+            "description": "Curso de Secretariado Jurídico que cubre aspectos clave del estudio.Incluye material completo.",
+            "destinado": "Estudiantes de Derecho de cualquier etapa, abogados y/o cualquiera que esté interesado.",
+            "price": 15000,
+            "categories": "Secretariado Juridico",
+            "Dra": "Dra. María José Núñez",
+            "modality": "Online",
+            "quantity": 5,
+            "whatIncludes": "Vocabulario Procesal e Introducción al Derecho, Jurisdicción y Competencias, Procesos y etapas, Procesos Civiles y de Familia, Procesos Laborales y Penales, Escritos, documentación y tareas del estudio, Firma digital, Búsqueda laboral. Se entrega un Drive con un audio + clase + material en PDF + videotutoriales instructivos de sistemas web + modelos escritos."
+        },
+        {
+            "id": 1,
+            "title": "Curso de Derecho Civil",
+            "description": "Curso de Derecho Civil que cubre aspectos clave del estudio.Incluye material completo.",
+            "destinado": "Estudiantes de Derecho de cualquier etapa, abogados y/o cualquiera que esté interesado.",
+            "price": 15000,
+            "categories": "Derecho Civil",
+            "Dra": "Dra. María José Núñez",
+            "modality": "Online",
+            "quantity": 3,
+            "whatIncludes": "Vocabulario Procesal e Introducción al Derecho, Jurisdicción y Competencias, Procesos y etapas, Procesos Civiles y de Familia, Procesos Laborales y Penales, Escritos, documentación y tareas del estudio, Firma digital, Búsqueda laboral. Se entrega un Drive con un audio + clase + material en PDF + videotutoriales instructivos de sistemas web + modelos escritos."
+        }
+    ],
+    "total":30000 
+}

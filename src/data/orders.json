@@ -1,0 +1,35 @@
+[
+    {
+        "id":2,
+        "userId":3,
+        "total":30000,
+        "createdAt":2109,
+        "items":[
+            {
+                "id": 3,
+                "title": "Curso de Derecho Penal",
+                "description": "Curso de Derecho Penal que cubre aspectos clave del estudio.Incluye material completo.",
+                "destinado": "Estudiantes de Derecho de cualquier etapa, abogados y/o cualquiera que esté interesado.",
+                "price": 15000,
+                "categories": "Derecho Penal",
+                "Dra": "Dra. María José Núñez",
+                "modality": "Online",
+                "quantity": 3,
+                "whatIncludes": "Vocabulario Procesal e Introducción al Derecho, Jurisdicción y Competencias, Procesos y etapas, Procesos Civiles y de Familia, Procesos Laborales y Penales, Escritos, documentación y tareas del estudio, Firma digital, Búsqueda laboral. Se entrega un Drive con un audio + clase + material en PDF + videotutoriales instructivos de sistemas web + modelos escritos."
+            },
+            {
+                "id": 4,
+                "title": "Curso de Derecho Laboral",
+                "description": "Curso de Derecho Laboral que cubre aspectos clave del estudio.Incluye material completo.",
+                "destinado": "Estudiantes de Derecho de cualquier etapa, abogados y/o cualquiera que esté interesado.",
+                "price": 15000,
+                "categories": "Derecho Laboral",
+                "Dra": "Dra. María José Núñez",
+                "modality": "Online",
+                "quantity": 3,
+                "whatIncludes": "Vocabulario Procesal e Introducción al Derecho, Jurisdicción y Competencias, Procesos y etapas, Procesos Civiles y de Familia, Procesos Laborales y Penales, Escritos, documentación y tareas del estudio, Firma digital, Búsqueda laboral. Se entrega un Drive con un audio + clase + material en PDF + videotutoriales instructivos de sistemas web + modelos escritos."
+            }
+        ]
+
+    }
+]

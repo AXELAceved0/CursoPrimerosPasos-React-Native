@@ -21,7 +21,7 @@ const ItemListCategories = ({ route }) => {
   }
   return (
     <>
-      <Search onSearch={onSearch} />
+      {/* <Search onSearch={onSearch} /> */}
       <FlatList
         data={productFiltered}
         keyExtractor={item => item.id}

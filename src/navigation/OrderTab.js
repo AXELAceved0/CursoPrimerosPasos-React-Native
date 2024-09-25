@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import orders from "../data/orders.json"
 
 const OrderTab = () => {
     return (

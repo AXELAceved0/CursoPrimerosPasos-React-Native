@@ -5,8 +5,7 @@ import CartTab from './CartTab';
 import OrderTab from './OrderTab';
 import TabBarIcons from '../components/TabBarIcons';
 import { colors } from '../global/colors';
-import { SafeAreaView, View } from 'react-native';
-import { StyleSheet } from 'react-native-web';
+import { SafeAreaView, View,StyleSheet } from 'react-native';
 
 
 const Tab = createBottomTabNavigator();
@@ -19,6 +18,11 @@ const Navigator = () => {
                     screenOptions={{
                         headerShown: false,
                         tabBarShowLabel: false,
+                        headerStyle: styles.headerStyle,
+                        headerTitleAlign: 'center',
+                        headerTitleStyle: styles.headerTitleStyle,
+                        headerTintColor: colors.lleters,
+                        contentStyle: styles.contentContainer,
                         tabBarStyle: {
                             backgroundColor: colors.secondary,
                             height: 60
@@ -47,6 +51,7 @@ const Navigator = () => {
                                     />
                                 </View>
                             ),
+                            headerShown:false,
                         }}
                     />
                     <Tab.Screen name='CartTab'
@@ -67,6 +72,8 @@ const Navigator = () => {
                                     />
                                 </View>
                             ),
+                            title:"Carrito",
+                            headerShown:true,
                         }}
                     />
                     <Tab.Screen name='OrderTab'
@@ -87,6 +94,8 @@ const Navigator = () => {
                                     />
                                 </View>
                             ),
+                            title:"Ordenes",
+                            headerShown:true
                         }}
                     />
                 </Tab.Navigator>
@@ -99,7 +108,7 @@ export default Navigator;
 
 const styles = StyleSheet.create({
     iconContainer: {
-        width: 50,
+        width: 55,
         height: 50,  
         alignItems: 'center',
         justifyContent: 'center',
@@ -107,6 +116,16 @@ const styles = StyleSheet.create({
     iconContainerFocused: {
         backgroundColor: colors.primary,
         borderRadius: 30,
+    },
+    headerStyle: {
+        backgroundColor: colors.primary,
+    },
+    headerTitleStyle: {
+        fontSize: 30,
+        color: colors.lleters,
+    },
+    contentContainer: {
+        backgroundColor: '#FFFFFF',
     },
 });
 

@@ -4,25 +4,30 @@ import ButtonPrimary from './ButtonPrimary'
 import { useNavigation } from '@react-navigation/native'
 
 const ProductItem = ({ product }) => {
-    const { width, height } = useWindowDimensions()
+    const { width } = useWindowDimensions()
     const navigation = useNavigation()
+
+    const imageWidth = width * 1.4;
+    const imageHeight = imageWidth * 0.72;
     return (
         <View style={styles.container}>
             <Image
-                style={styles.image}
+                style={[styles.image, { width: imageWidth, height: imageHeight }]}
                 source={require("../../assets/secretariadoJuridico.jpg")}
-                resizeMode='center'
+                resizeMode='contain'
             />
-            <View style={styles.containerText}>
-                <Text style={[styles.title, width > 359 ? styles.titleMin : styles.titleMax]}>
-                    {product.title}
-                </Text>
-                <Text style={styles.price}>
-                    ${product.price}
-                </Text>
+            <View style={styles.containerDetail}>
+                <View style={styles.containerText}>
+                    <Text style={[styles.title, width > 359 ? styles.titleMin : styles.titleMax]}>
+                        {product.title}
+                    </Text>
+                    <Text style={styles.price}>
+                        ${product.price}
+                    </Text>
+                </View>
+                <ButtonPrimary onPress={() => navigation.navigate('Detail', { id: product.id })} style={styles.button}><Text style={{fontSize:20}}>Ver Detalles</Text>
+                </ButtonPrimary>
             </View>
-            <ButtonPrimary onPress={() => navigation.navigate('Detail', { id: product.id })}>Ver Detalles
-            </ButtonPrimary>
         </View>
     )
 }
@@ -34,37 +39,48 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
         flex: 1,
-        height: "100%",
-        backgroundColor: colors.secondary
+        backgroundColor: colors.secondary,
     },
     image: {
+        height: 415,
+        maxWidth: 415,
+        minHeight: 100,
+    },
+    containerDetail: {
         width: "100%",
-        maxHeight: 600,
-        minHeight: 200,
+        height: 340,
+        borderTopRightRadius: 80,
+        borderTopLeftRadius: 80
     },
     containerText: {
         width: "100%",
         justifyContent: "center",
         alignItems: "center",
-        gap: 10,
+        gap: 60,
     },
     title: {
         width: "100%",
         textAlign: "center",
         color: colors.tertiary,
         fontFamily: "letter",
+        marginTop: 30
     },
     titleMax: {
-        fontSize: 30
+        fontSize: 50
     },
     titleMin: {
-        fontSize: 22
+        fontSize: 35
     },
     price: {
-        fontSize: 20,
+        fontSize: 35,
         width: "100%",
         textAlign: "center",
         color: colors.tertiary,
         fontWeight: "bold"
     },
+    button: {
+        marginTop: 20,
+        width:"80%",
+        marginHorizontal:"10%"
+    }
 })

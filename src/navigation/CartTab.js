@@ -2,6 +2,7 @@ import { StyleSheet, FlatList, View, Text } from 'react-native';
 import cart from "../data/cart.json";
 import CartItem from '../components/CartItem';
 import { colors } from '../global/colors';
+import { TouchableOpacity } from 'react-native';
 
 const CartTab = () => {
     return (
@@ -18,7 +19,9 @@ const CartTab = () => {
                     <Text style={styles.totalAmount}>${cart.total}</Text>
                     <Text style={styles.total}>Total</Text>
                 </View>
+                <TouchableOpacity>
                 <Text style={styles.confirmButton}>Confirmar</Text>
+                </TouchableOpacity>
             </View>
         </View>
     );
@@ -38,8 +41,7 @@ const styles = StyleSheet.create({
         borderBottomLeftRadius: 90,              
     },
     containerConfirm: {
-        backgroundColor: colors.tertiary, 
-        padding: 20,
+        padding: 10,
         flexDirection: "row",
         justifyContent: "space-around",
         alignItems: "center",

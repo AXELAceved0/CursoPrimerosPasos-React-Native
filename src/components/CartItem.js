@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native'
 import { colors } from '../global/colors'
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import { TouchableOpacity } from 'react-native';
 
 const CartItem = ({ item }) => {
     return (
@@ -10,7 +11,9 @@ const CartItem = ({ item }) => {
                 <Text style={styles.modality}>{item.modality}</Text>
                 <Text style={styles.price}>${item.price}</Text>
             </View>
+            <TouchableOpacity>
             <MaterialCommunityIcons name="delete" size={35} color={colors.primary} />
+            </TouchableOpacity>
         </View>
     )
 }

@@ -45,6 +45,8 @@ const styles = StyleSheet.create({
         height: 415,
         maxWidth: 415,
         minHeight: 100,
+        borderBottomLeftRadius:60, 
+        borderBottomRightRadius:60
     },
     containerDetail: {
         width: "100%",

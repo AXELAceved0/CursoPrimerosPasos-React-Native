@@ -25,7 +25,7 @@ const Navigator = () => {
                         contentStyle: styles.contentContainer,
                         tabBarStyle: {
                             backgroundColor: colors.secondary,
-                            height: 60
+                            height: 60,
                         }
                     }}
                     sceneContainerStyle={{

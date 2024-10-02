@@ -1,10 +1,12 @@
 import { StyleSheet  } from 'react-native'
 import Categories from '../components/Categories.js'
+import Counter from '../components/Counter.js'
 
 const Home = () => {
   return (
 <>
-<Categories/>
+<Counter />
+{/* <Categories/> */}
 </>
   )
 }

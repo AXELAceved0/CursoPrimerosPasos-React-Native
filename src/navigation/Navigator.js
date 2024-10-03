@@ -6,6 +6,7 @@ import OrderTab from './OrderTab';
 import TabBarIcons from '../components/TabBarIcons';
 import { colors } from '../global/colors';
 import { SafeAreaView, View,StyleSheet } from 'react-native';
+import SearchScreen from '../screens/SearchScreen';
 
 
 const Tab = createBottomTabNavigator();
@@ -98,6 +99,28 @@ const Navigator = () => {
                             headerShown:true
                         }}
                     />
+                    <Tab.Screen name='SearchScreen'
+                    component={SearchScreen}
+                    options={{
+                        tabBarIcon: ({ focused }) => (
+                            <View style={[
+                                styles.iconContainer,
+                                focused ? styles.iconContainerFocused : null,
+                            ]}>
+                                <TabBarIcons
+                                    text="buscar"
+                                    icon="search"
+                                    color={focused ? colors.lleters : colors.primary}
+                                    textStyle={{
+                                        color: focused ? colors.lleters : colors.primary,
+                                    }}
+                                />
+                            </View>
+                        ),
+                        title:"Buscar",
+                        headerShown:true
+                    }}
+                />
                 </Tab.Navigator>
             </NavigationContainer>
         </SafeAreaView>

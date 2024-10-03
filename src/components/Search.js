@@ -1,8 +1,8 @@
-import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native'
-import React, { useState } from 'react'
-import { colors } from '../global/colors'
+import { StyleSheet, Text, TextInput, View, TouchableOpacity } from 'react-native'
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
+import { colors } from '../global/colors';
+import { useState } from 'react';
 
 const Search = ({ onSearch }) => {
 
@@ -20,7 +20,7 @@ const Search = ({ onSearch }) => {
     }
 
     const search = () => {
-        const regex = /^[a-zA-Z]+$/;
+        const regex = /^[a-zA-Z\s]+$/;
         if (!regex.test(input)) {
             setError('Entrada inválida: solo se permiten letras.')
         } else {
@@ -39,12 +39,12 @@ const Search = ({ onSearch }) => {
                     value={input}
                     onChangeText={handleInputChange}
                 />
-                <Pressable onPress={search}>
+                <TouchableOpacity onPress={search}>
                     <FontAwesome name="search" size={22} color={colors.tertiary} style={styles.icon} />
-                </Pressable>
-                <Pressable onPress={handleRemoveInput}>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={handleRemoveInput}>
                     <FontAwesome6 name="delete-left" size={24} color={colors.tertiary} style={styles.icon} />
-                </Pressable>
+                </TouchableOpacity>
             </View>
             <Text style={styles.error}>{error}</Text>
         </View>
@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
         margin: 5
     },
     error: {
-        color: colors.tertiary,
+        color: "red",
         fontWeight: "bold",
         marginLeft: 15,
         fontSize: 15,

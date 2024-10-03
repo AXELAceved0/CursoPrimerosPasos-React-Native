@@ -5,8 +5,8 @@ import Counter from '../components/Counter.js'
 const Home = () => {
   return (
 <>
-<Counter />
-{/* <Categories/> */}
+{/* <Counter /> */}
+<Categories/>
 </>
   )
 }

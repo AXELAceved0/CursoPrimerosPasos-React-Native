@@ -1,4 +1,4 @@
-import { Pressable, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import { colors } from '../global/colors'
 import ShadowWrapper from './ShadowWrapper'
 import { MaterialCommunityIcons } from '@expo/vector-icons';

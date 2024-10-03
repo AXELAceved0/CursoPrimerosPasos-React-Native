@@ -1,10 +1,11 @@
 import { FlatList, StyleSheet } from 'react-native'
 import { useEffect, useState } from 'react'
-import product from '../data/product.json'
-import Search from '../components/Search'
 import ProductItem from '../components/ProductItem'
+import Counter from '../components/Counter'
+import { useSelector } from 'react-redux'
 
 const ItemListCategories = ({ route }) => {
+  const product = useSelector((state => state.shop.product))
   const {categories} = route.params
   const [productFiltered, setProductFiltered] = useState([])
 
@@ -12,16 +13,9 @@ const ItemListCategories = ({ route }) => {
     setProductFiltered(product.filter(products => products.categories === categories.name))
   }, [categories])
 
-  const onSearch = (input) => {
-    if (!input) {
-      setProductFiltered(product.filter(products => products.categories === categories.name))
-    } else {
-      setProductFiltered(productFiltered.filter(product => product.title.includes(input)))
-    }
-  }
   return (
     <>
-      {/* <Search onSearch={onSearch} /> */}
+    {/* <Counter /> */}
       <FlatList
         data={productFiltered}
         keyExtractor={item => item.id}

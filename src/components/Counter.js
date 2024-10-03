@@ -1,7 +1,6 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View,TouchableOpacity } from 'react-native'
 import React, { useState } from 'react'
 import { colors } from '../global/colors'
-import { TouchableOpacity } from 'react-native'
 
 const Counter = () => {
 
@@ -12,7 +11,9 @@ const Counter = () => {
     }
 
     const decrement = () => {
-        setCount(count - 1)
+        if(count != 0){
+            setCount(count - 1)
+        }
     }
 
     return (
@@ -21,8 +22,8 @@ const Counter = () => {
                 <Text style={styles.button}>-</Text>
             </TouchableOpacity>
             <Text style={styles.count}>{count}</Text>
-            <TouchableOpacity>
-                <Text style={styles.button} onPress={increment}>+</Text>
+            <TouchableOpacity  onPress={increment}>
+                <Text style={styles.button}>+</Text>
             </TouchableOpacity>
         </View>
     )
